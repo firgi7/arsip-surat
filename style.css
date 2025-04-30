@@ -1,0 +1,166 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Body umum */
+  body {
+    background: linear-gradient(to right, #7b5e57, #bfa6a0);
+    color: #3e3e3e;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Kontainer umum */
+  .container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Judul halaman */
+  h2.login-title {
+    font-size: 24px;
+    margin-bottom: 25px;
+    color: #5c4033;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  }
+  
+  /* Form input dan button */
+  form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 6px;
+    color: #5c4033;
+    font-weight: 500;
+  }
+  
+  form input[type="text"],
+  form input[type="password"],
+  form input[type="file"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: all 0.3s;
+  }
+  
+  form input:focus {
+    border-color: #8b5e3c;
+    outline: none;
+  }
+  
+  form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #8b5e3c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  form button:hover {
+    background-color: #6b4229;
+  }
+  
+  /* Pesan berhasil atau gagal */
+  .success {
+    color: #2d7a2d;
+    margin-top: 15px;
+  }
+  
+  .error {
+    color: #b30000;
+    margin-top: 15px;
+  }
+  
+  /* Dashboard */
+  .dashboard {
+    max-width: 800px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  /* Logout link */
+  .logout {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .logout a {
+    color: #8b5e3c;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .logout a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Link kembali */
+  .back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #8b5e3c;
+    text-decoration: none;
+  }
+  
+  .back-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Elemen tambahan */
+  .login-form select,
+  .login-form input[type="date"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Navigasi atas */
+  .top-nav {
+    text-align: right;
+    padding: 20px;
+    background-color: #f9f5f1;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .top-nav a {
+    text-decoration: none;
+    color: #5a3e2b;
+    font-weight: 600;
+    margin: 0 10px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .top-nav a:hover {
+    background-color: #c2a589;
+    color: #fff;
+  }
+  
+  .top-nav span {
+    color: #aaa;
+  }
+  
